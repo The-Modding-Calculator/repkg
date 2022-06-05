@@ -1,9 +1,17 @@
 # RePKG
-Wallpaper engine PKG unpacker/TEX converter, written in C#.
+Wallpaper engine PKG unpacker/TEX converter, written in C# by notscuffed.
+I like to use it to edit wall papers I find in the work shop that are a little to over the top for my tastes.
 
-PKG and TEX formats reverse engineered by me.
+PKG and TEX formats reverse engineered by notscuffed.
 
 Feel free to report errors.
+
+#Quick start 
+- Build in visual studio
+- Navigate to RePKG\bin\Debug\net472 in your terminal
+- make a new output directory
+- run ```.\RePKG extract "path\to\scene.pkg" -o "path\to\new\output\directory" -c```
+- copy output directory to your wall paper engin projects direcotry usally in \steamapps\common\wallpaper_engine\projects\myprojects
 
 # Features
 - Extract PKG files
